@@ -69,6 +69,7 @@ class FMS { //one firearm management service
     }
 };
 
+//The hacker always starts in main_network.
 const main_network = {
     type: "network",
     name: "DTX:Climate",
