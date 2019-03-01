@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>HackOS</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div id=shell class="section_wrapper">
+        <div class="border"></div>
+        <div id=header></div>
+        <div id=console></div>
+        <div id=bottom_wrapper>
+            <div id=input></div>
+            <div id=cursor></div>
+            <div id=pointer></div>
+        </div>
+    </div>
+</body>
+
+<script type="text/javascript" src="helper.js"></script>
+<script type="text/javascript" src="terminal/commands.js"></script>
+
+<script type="text/javascript" src="GO_MISSION"></script> 
+<!-- 
+    GO_MISSION means the Go server will automatically serve the mission file
+    from the path loaded on startup.
+-->
+<script type="text/javascript" src="terminal/shell.js"></script>
+
+<script type="text/javascript">
+    state.boot_shell();
+</script>
+
+</html>
