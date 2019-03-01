@@ -5,6 +5,7 @@ const loaded_commands = {
         f: function(_, command) {
             if (command.length === 0) {
                 //No args.
+                state.println("Use `help [command]' for more information about that command");
                 state.println("Possible commands:");
                 state.print_array(Object.keys(state.commands));
             } else {
@@ -55,7 +56,7 @@ const loaded_commands = {
         f: function() {
             var obj_type = "";
             var name = "";
-            if (state.is_in_device) {
+            if (state.current_device) {
                 obj_type = state.current_device.type;
                 name = state.current_device.name;
             } else {
@@ -80,7 +81,7 @@ const loaded_commands = {
                 state.progress_bar("Searching for registers", "Done.", 30, 
                     ( 1/Math.sqrt(size + 1) ), 50, () => {
                         if (size == 0) {
-                            state.println("This device is encrypted.")
+                            state.println("This device is encrypted. (How'd you get in here, anyway?)");
                         } else {
                             state.print_array(registers);
                         }
@@ -136,9 +137,15 @@ const loaded_commands = {
             device_name = device_name[0]; //I only need the first.
             for (let device of state.current_network.devices) {
                 if (device.name == device_name) {
-                    state.current_device = device;
-                    state.println("Entered device succesfully.");
-                    return;
+                    if (device.registers.length == 0) {
+                        //Clever workaround to "lazy design"
+                        state.println("That device is encrypted.");
+                        return;
+                    } else {
+                        state.current_device = device;
+                        state.println("Entered device succesfully.");
+                        return;
+                    }
                 }
             }
             //else
@@ -267,11 +274,11 @@ const loaded_commands = {
     read: {
         used_in: "device",
         f: function(is_device, args) {
-            
+            state.println("Files (and this command) are WIP, so this doesn't do anything.");
         },
         help: [
             "Read the contents of a file stored on a device.",
-            "~ read [file] Read the contents of [file]"
+            "~ `read [file]' Read the contents of [file]"
         ]
     }
 }

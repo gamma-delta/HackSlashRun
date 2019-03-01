@@ -39,6 +39,7 @@ const main_network = {
     type: "network",
     name: "Hydro@Thomas:public",
     devices: [
+        new Phone("Edwards_iPhone"), new Phone("SatoshiGalaxyS8+"), new Phone("Jessicas_iPhone"),
         { //Brother Printer
             name: "Brother6555",
             type: "device",
@@ -62,7 +63,7 @@ const main_network = {
                     return `Printed out ${value}`;
                 }
             } 
-        }, //End Brother printer
+        } //End Brother printer
     ]
 };
 
@@ -72,16 +73,17 @@ const doors_network = {
     password: "squaremoon",
     password_hint: "I stuck it on one of the chemical tanks",
     devices: [
-        new LockDoor("00"), new LockDoor("01"), new LockDoor("03"),
-        new LockDoor("10"), new LockDoor("11"), new LockDoor("12")
+        new LockDoor("00"), new LockDoor("01"), //First floor
+        new LockDoor("10"), new LockDoor("11"), new LockDoor("12") //Second floor
     ]
 };
 
-const micheals_phone = {
+const michealas_hotspot = {
     type: "network",
-    name: "Micheals_iPhone",
+    name: "Michealas_iPhone",
     devices: [
-        
+        new Phone("Mikes_iPhone"), new Phone("Miguels_iPhone"), new Phone("PeterGalaxyS7"),
+        new Phone("Kathys_iPadMini"),
         { //BLuetooth Speaker
             name: "JawboneSpeakerBBG",
             type: "device",
@@ -105,6 +107,6 @@ const micheals_phone = {
     ]
 }
 
-main_network.adjacent_networks = [doors_network, micheals_phone];
+main_network.adjacent_networks = [doors_network, michealas_hotspot];
 doors_network.adjacent_networks = [main_network];
-micheals_phone.adjacent_networks = [main_network];
+michealas_hotspot.adjacent_networks = [main_network];

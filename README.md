@@ -15,7 +15,7 @@ You'll note these are HTML files, and as such don't display that nicely on Githu
 The game requires a server for your hacker to connect to. This is how to set it up, and some additional info.
 
 ### For Beginners
-Open up a command prompt, and type in `ipconfig`. Look for the section that says `Wireless LAN adapter Wi-Fi` and write down the number after `IPv4 Address`. It should be 4 numbers seperated with periods.
+Open up a command prompt, and type in `ipconfig`. Look for the section that says `Wireless LAN adapter Wi-Fi` and write down the thing after `IPv4 Address`. It should be 4 numbers seperated with periods.
 
 Next, navigate to the folder with `hack_slash_run.exe` with the command prompt. (Google is your friend if you don't know how.) Then, type this in: `hack_slash_run.exe -m=missions/example/mission.js`. That will launch the example mission. To run another mission, change the path (the thing with slashes after the `-m=`) to another mission file.
 
