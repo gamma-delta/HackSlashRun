@@ -1,6 +1,8 @@
 # Hack Slash Run
 An RPG about physical hacking. There's two kinds of players: Runners do more RPG-style things: they go around a mission site, sneak past guards, and set up bugs. The Hacker doesn't have a character at all; instead they use a laptop and hack devices in the building by connecting to a server run by the GM.
 
+This game is still VERY WORK IN PROGRESS. Expect frequent, if not drastic changes.
+
 # Why play Hack Slash Run?
 HSR was designed to be really easy to play. Runners are just 4 numbers from 1-6 (representing Strength, Dexterity, Intelligence, and Charisma), there's not really combat, and everything is decided by simple 6-sided dice. There's also an interesting interplay between the Runners and the Hackers; the Runners can get passwords and information from inside the mission and the Hacker can help them back by unlocking doors and such.
 
