@@ -46,7 +46,7 @@ const main_network = {
 
             registers: ["paper_count", "ink", "input"],
 
-            paper_count: 198,
+            paper_count: 34,
             paper_count_r: function() {return `${this.paper_count} sheets left.`},
             paper_count_w: function() {return "Read Only."},
 
@@ -59,8 +59,8 @@ const main_network = {
                 if (this.paper_count - 1 >= 0 && this.ink - 55 >= 0) {
                     this.paper_count--;
                     this.ink -= 55;
-                    send_dm(`Printed out ${value}`);
-                    return `Printed out ${value}`;
+                    send_dm(`Printed out "${value}"`);
+                    return `Printed out "${value}"`;
                 }
             } 
         } //End Brother printer
