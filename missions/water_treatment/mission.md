@@ -1,4 +1,6 @@
 # Water Treatment
+Tolerance: 5
+
 This is the second mission I've ever made. It's quite a bit different than the example mission: instead of secretly sneaking around at night, this is full-blown daylight. The players have to be a different kind of sneaky.
 
 Still WIP
@@ -57,7 +59,7 @@ There's two stairwells. They let you get to the next floor with 5 squares of mov
 ## More Chemicals
 Similar to the first Chemicals room. In the back, there's a post-it note stuck on one of the chemical drums that says `Password for the doors is opposite` on one side and `"Root Sun", all one word, no caps` on the other. (The password is `squaremoon`, the opposite of Root and Sun. This was stolen wholesale from The Mysterious Benedict Society.)
 
-Kathy is in here, measuring the pressure of some tanks with a manometer.
+Kathy is in here, measuring the pressure of some tanks with a manometer. (this is a pressure gauge, not to measure the amount of men in the room.)
 
 ## Crates
 A room with a bunch of wooden crates. They all have stickers on them that say `CAUTION: EXPLOSIVE`. They contain tanks of various water treatment chemicals. (Eventually, once the smuggling operation goes online, they'd be filled with less legal stuff.)
@@ -78,7 +80,7 @@ The objective is in here; just plant the bug on one of the three terminals.
 Micheala is in here, listening to music on her speaker while she's configuring one of the terminals. She will stop the players if they try to mess with the computers.
 
 # Security
-There isn't much in the way of security here, other than semi-vigilantish employees. There are, however, doors.
+There isn't much in the way of security at the Thomas Water plant, other than semi-vigilantish employees. There are, however, doors.
 
 Doors marked with a curved opening and no line in the wall are unlocked. Doors marked with a curved opening and a line in the wall are locked (DEX DC 15) and vulnerable to the lock shim. Doors marked with a K require a keycard or a DC 20 INT check. Doors marked with a number are fingerprinted and must be unlocked by the hacker or an employee.
 
@@ -87,7 +89,7 @@ Your players start the mission with the following items, which they may distribu
 
 |Item|Description|
 |---|---|
-|Water Quality Bug|Part of your objective. Plant it on the main computer in the water plant.|
+|Water Quality Bug|Part of your objective. Plant it on the main computer in the water plant. Takes 10 turns to install.|
 |Card Copier|After standing in the same square as an electronic card for 3 seconds, there's a 50% chance it gets copied.|
 |Lock Shim|A surprising number of doors are vulnerable to just slipping a shim through the jamb and opening the bolt. Gives a +5 to checks made to unlock vulnerable doors (marked with a curved line). Looks like a screwdriver with a curved hook on the end.|
 

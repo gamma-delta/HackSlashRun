@@ -1,4 +1,5 @@
 # Example Mission
+Tolerance: 6
 
 This is a simple little mission intended for me to practice designing missions. Probably suitable as a first mission for your players.
 
