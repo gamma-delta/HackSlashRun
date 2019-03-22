@@ -26,6 +26,7 @@ To win a mission, complete the objective! It's that simple.
 There are a few ways to lose a mission:
 
 *   Some missions might have a designated failure condition: if you break it, you lose.
+*   If everyone dies, you lose.
 *   The police might show up.
 
 ### The Police
