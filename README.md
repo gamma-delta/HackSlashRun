@@ -21,9 +21,9 @@ Open up a terminal by searching for `cmd` or `Command Prompt` with Cortana, and 
 
 Once you have your IP, navigate to the folder with `hack_slash_run.exe` with the command prompt. (Google is your friend if you don't know how.) Then, type this in: `hack_slash_run.exe -m=missions/example/mission.js` to launch the example mission. To run another mission, change the path (the thing with slashes after the `-m=`) to another mission file.
 
-Finally, tell your hacker to type that IP address you wrote down into a web browser, followed by `:1337`. (So, something like `123.45.67.89:1337`.) If everything is working correctly, your hacker should see the HackOS window pop up.
+Finally, tell your hacker to type that IP address you wrote down into a web browser, followed by `:1337`. (So, something like `123.45.67.89:1337`.) If everything is working correctly, your hacker should see the HackOS window pop up. (Make sure you're connected to the same Wi-fi network.)
 
-When the hacker `poke`s a value somewhere, you'll see it on your screen and an alert will play (so you know they did something.)
+When the hacker `poke`s a value somewhere, you'll see it on your terminal and an alert sound will play (so you know they did something.)
 
 For a list of arguments, run `hack_slash_run.exe -h` or `hack_slash_run.exe --help`. It won't launch the server and it will tell you all the ways you can customize the game.
 
