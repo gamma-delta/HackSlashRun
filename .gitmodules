@@ -1,6 +1,0 @@
-[submodule "missions/HSRMissions"]
-	path = missions/HSRMissions
-	url = https://github.com/gamma-delta/HSRMissions.git
-[submodule "HSRMissions"]
-	path = HSRMissions
-	url = https://github.com/gamma-delta/HSRMissions.git

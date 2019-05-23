@@ -15,7 +15,9 @@ The game requires a server for your hacker to connect to. This is how to set it 
 Currently, the server only works on Windows. Eventually, it will be avaliable for other platforms.
 
 ### For Beginners
-First, get your IP address. You can Google `what's my ip` or you can do it the hacker way:
+First, you'll need to get the server itself. Check the releases page !!TODO ADD RELEASES. Put it in a folder anywhere. Next to it, make another folder to put the missions in. [You can download missions here](https://github.com/gamma-delta/HSRMissions/tree/72d9d3779b62314e0b1def37de78d3792cdde7b2).
+
+Next, get your IP address. You can Google `what's my ip` or you can do it the hacker way:
 
 Open up a terminal by searching for `cmd` or `Command Prompt` with Cortana, and type in `ipconfig`. Look for the section that says `Wireless LAN adapter Wi-Fi` and write down the thing after `IPv4 Address`. It should be 4 numbers seperated with periods, like `123.45.67.89`.
 
@@ -32,7 +34,7 @@ While the server's running, your players can also read the docs. Tell them to go
 Finally, to stop the game after you're done, do `CTRL + C` or just close the terminal window.
 
 ### Dangerous Complex Advanced Technowizardry Section
-The exe is compiled for Windows, but if you have Go installed you should be able to compile it for your system. (If you do, please do a pull request or something so I can get some other platforms supported here. I'll credit you.)
+The exe is compiled for Windows, but if you have Go installed you should be able to compile it for your system. (If you do, please fork or something so I can get some other platforms supported here. I'll credit you.)
 
 # Making your Own Missions
 Coming soon... (For now, try reading the mission.js files and experimenting. Isn't this a little like hacking?)
