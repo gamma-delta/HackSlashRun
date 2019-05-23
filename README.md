@@ -15,7 +15,7 @@ The game requires a server for your hacker to connect to. This is how to set it 
 Currently, the server only works on Windows. Eventually, it will be avaliable for other platforms.
 
 ### For Beginners
-First, you'll need to get the server itself. Check the releases page !!TODO ADD RELEASES. Put it in a folder anywhere. Next to it, make another folder to put the missions in. [You can download missions here](https://github.com/gamma-delta/HSRMissions/tree/72d9d3779b62314e0b1def37de78d3792cdde7b2).
+First, you'll need to get the server itself. Check the releases page !!TODO ADD RELEASES. Put it in a folder anywhere. Next to it, make another folder to put the missions in. [You can download missions here](https://github.com/gamma-delta/HSRMissions/tree/master).
 
 Next, get your IP address. You can Google `what's my ip` or you can do it the hacker way:
 
