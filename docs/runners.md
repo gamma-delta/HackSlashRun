@@ -41,14 +41,6 @@ Example:
 
 > Mica wants to try and pick a lock. The GM tells Mica to roll for Dexterity. As this is a fairly old lock, the GM secretly sets the DC to an easy 12. Mica rolls 3d6 and gets 2, 5, and 3. She adds her DEX score of 4 to her rolls to get 14, which she tells the GM. As this is above the DC, she successfully unlocks the door.
 
-## Advantage and Disadvantage
-
-If the GM thinks a check has some sort of special circumstance, they may have the player roll with advantage or disadvantage. To make a check with advantage, roll 4d6 and use the three highest values. To make it with disadvantage, roll 4d6 and use the three lowest values.
-
-Example:
-
-> Damian is trying to convince a security guard that he really, definitely belongs in the high-security area he was found in. As he doesn't have a badge, the GM tells Damian to make a Charisma check with disadvantage, and secretly sets the DC to 15. Damian rolls 4d6 and gets 1, 3, 6, and 4. He drops the 6 (his highest roll) and adds his CHA score of 3 to get 12. This is below the DC, so the guard does not believe him.
-
 ## Passive Checks
 
 When you aren't actively trying to do something, but still would make a check, make a _passive check_ instead. For example, if you aren't actively looking for someone who is sneaking past you, make a passive check.
@@ -109,12 +101,12 @@ You usually don't want to be seen while on a mission (unless that's part of your
 
 You may not start sneaking unless no one hostile is aware of your location. To start sneaking takes **3 seconds**. When you start sneaking, make a DEX check and record the number. Until you stop sneaking (a free action), the DC of each INT check made to find you is whatever the result of your DEX check was. If they make the check, they see you and you immediately stop being hidden (to everyone).
 
-While sneaking, you move half as fast.
+While sneaking, it takes **2 seconds** to take a Move action instead of 1.
 
 ### Making a Check
 To make a generic check (ie, unlock a door, search a trash can) takes **2 seconds**. This is not the only time you make a check: for example, a guard might ask you a question on her turn, in which case you might make a Charisma check on her turn.
 
-Alternatively, you can spend **3 seconds** to take advantage on a check, or spend **1 second** to make the chekc with disadvantage.
+Alternatively, you can spend **3 seconds** and take +5 on a check, or only spend **1 second** but get -5 on the check.
 
 # Conditions
 Sometimes, the location you're in might make it easier or harder to do certain things. Here are some common conditions and their effects.
